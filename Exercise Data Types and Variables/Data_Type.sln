@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Integer Operations", "1. Integer Operations\1. Integer Operations.csproj", "{A25618B6-EB94-46EF-B35D-F09FA4D0B2C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Integer Operations", "1. Integer Operations\1. Integer Operations.csproj", "{A25618B6-EB94-46EF-B35D-F09FA4D0B2C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Sum Digits", "2_Sum Digits\2_Sum Digits.csproj", "{9A6547FE-816E-4CB5-9096-05D362D309C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Sum Digits", "2_Sum Digits\2_Sum Digits.csproj", "{9A6547FE-816E-4CB5-9096-05D362D309C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_Elevator", "T03_Elevator\T03_Elevator.csproj", "{1F1A50A0-4C14-4AFF-B1CB-AEE91028DEBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03_Elevator", "T03_Elevator\T03_Elevator.csproj", "{1F1A50A0-4C14-4AFF-B1CB-AEE91028DEBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T04_Sum of Chars", "T04_Sum of Chars\T04_Sum of Chars.csproj", "{C9DF1566-41B4-46ED-9F4B-011CC7F48C94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T04_Sum of Chars", "T04_Sum of Chars\T04_Sum of Chars.csproj", "{C9DF1566-41B4-46ED-9F4B-011CC7F48C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T05_Print Part Of ASCII Table", "T05_Print Part Of ASCII Table\T05_Print Part Of ASCII Table.csproj", "{1561AFEF-9640-48C6-BAB4-7B3E402F917E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T05_Print Part Of ASCII Table", "T05_Print Part Of ASCII Table\T05_Print Part Of ASCII Table.csproj", "{1561AFEF-9640-48C6-BAB4-7B3E402F917E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06_Water Overflow", "T06_Water Overflow\T06_Water Overflow.csproj", "{AA930829-1778-4DD3-8850-546370422D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07_Triples of Latin Letters", "T07_Triples of Latin Letters\T07_Triples of Latin Letters.csproj", "{6B9B1982-E234-4A27-9980-A9591D47A79A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{1561AFEF-9640-48C6-BAB4-7B3E402F917E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1561AFEF-9640-48C6-BAB4-7B3E402F917E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1561AFEF-9640-48C6-BAB4-7B3E402F917E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA930829-1778-4DD3-8850-546370422D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA930829-1778-4DD3-8850-546370422D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA930829-1778-4DD3-8850-546370422D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA930829-1778-4DD3-8850-546370422D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9B1982-E234-4A27-9980-A9591D47A79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9B1982-E234-4A27-9980-A9591D47A79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9B1982-E234-4A27-9980-A9591D47A79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9B1982-E234-4A27-9980-A9591D47A79A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
