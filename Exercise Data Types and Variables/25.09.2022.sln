@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Beer Kegs", "7. Beer Kegs\7. Beer Kegs.csproj", "{B2264E27-EB6A-4795-8AF2-81F64DBADB6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Beer Kegs", "7. Beer Kegs\7. Beer Kegs.csproj", "{B2264E27-EB6A-4795-8AF2-81F64DBADB6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T08_Spice Must Flow", "T08_Spice Must Flow\T08_Spice Must Flow.csproj", "{3C94DAF2-4074-438C-A9F2-F8DC9DBCE357}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T08_Spice Must Flow", "T08_Spice Must Flow\T08_Spice Must Flow.csproj", "{3C94DAF2-4074-438C-A9F2-F8DC9DBCE357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T09_Pokemon", "T09_Pokemon\T09_Pokemon.csproj", "{2110F60E-6A80-4B69-AEDF-5849B6C03B88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3C94DAF2-4074-438C-A9F2-F8DC9DBCE357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C94DAF2-4074-438C-A9F2-F8DC9DBCE357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C94DAF2-4074-438C-A9F2-F8DC9DBCE357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2110F60E-6A80-4B69-AEDF-5849B6C03B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2110F60E-6A80-4B69-AEDF-5849B6C03B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2110F60E-6A80-4B69-AEDF-5849B6C03B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2110F60E-6A80-4B69-AEDF-5849B6C03B88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

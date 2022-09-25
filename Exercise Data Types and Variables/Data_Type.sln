@@ -13,11 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T04_Sum of Chars", "T04_Sum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T06_Water Overflow", "T06_Water Overflow\T06_Water Overflow.csproj", "{AA930829-1778-4DD3-8850-546370422D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07_TripleLetters", "D:\source\repos\Data_Type_VAr\SoftUniExercises\Exercise Data Types and Variables\T07_Triples of Latin Letters\T07_TripleLetters\T07_TripleLetters.csproj", "{51BA32B5-0B6C-4C57-AF8C-84153B4EA2F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T07_TripleLetters", "D:\source\repos\Data_Type_VAr\SoftUniExercises\Exercise Data Types and Variables\T07_Triples of Latin Letters\T07_TripleLetters\T07_TripleLetters.csproj", "{51BA32B5-0B6C-4C57-AF8C-84153B4EA2F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T05__Print Part Of ASCII Table", "D:\source\repos\Data_Type_VAr\SoftUniExercises\Exercise Data Types and Variables\T05__Print Part Of ASCII Table\T05__Print Part Of ASCII Table.csproj", "{14F100FB-55E8-4ECB-8F6A-C18CFD589260}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T08_Beer Kegs", "D:\source\repos\Data_Type_VAr\SoftUniExercises\Exercise Data Types and Variables\T08_Beer Kegs\T08_Beer Kegs.csproj", "{A15C660E-BFC2-4E83-982E-1298345D689A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T05__Print Part Of ASCII Table", "D:\source\repos\Data_Type_VAr\SoftUniExercises\Exercise Data Types and Variables\T05__Print Part Of ASCII Table\T05__Print Part Of ASCII Table.csproj", "{14F100FB-55E8-4ECB-8F6A-C18CFD589260}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +51,6 @@ Global
 		{14F100FB-55E8-4ECB-8F6A-C18CFD589260}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14F100FB-55E8-4ECB-8F6A-C18CFD589260}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14F100FB-55E8-4ECB-8F6A-C18CFD589260}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A15C660E-BFC2-4E83-982E-1298345D689A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A15C660E-BFC2-4E83-982E-1298345D689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A15C660E-BFC2-4E83-982E-1298345D689A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A15C660E-BFC2-4E83-982E-1298345D689A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
