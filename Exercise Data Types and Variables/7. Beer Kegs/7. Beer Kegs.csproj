@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>T08_Beer_Kegs</RootNamespace>
+    <RootNamespace>_7._Beer_Kegs</RootNamespace>
   </PropertyGroup>
 
 </Project>
