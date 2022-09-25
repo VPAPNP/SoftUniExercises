@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T04_Sum of Chars", "T04_Sum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T05_Print Part Of ASCII Table", "T05_Print Part Of ASCII Table\T05_Print Part Of ASCII Table.csproj", "{1561AFEF-9640-48C6-BAB4-7B3E402F917E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06_Water Overflow", "T06_Water Overflow\T06_Water Overflow.csproj", "{AA930829-1778-4DD3-8850-546370422D69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T06_Water Overflow", "T06_Water Overflow\T06_Water Overflow.csproj", "{AA930829-1778-4DD3-8850-546370422D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07_Triples of Latin Letters", "T07_Triples of Latin Letters\T07_Triples of Latin Letters.csproj", "{6B9B1982-E234-4A27-9980-A9591D47A79A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07_TripleLetters", "D:\source\repos\Data_Type_VAr\SoftUniExercises\Exercise Data Types and Variables\T07_Triples of Latin Letters\T07_TripleLetters\T07_TripleLetters.csproj", "{51BA32B5-0B6C-4C57-AF8C-84153B4EA2F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{AA930829-1778-4DD3-8850-546370422D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA930829-1778-4DD3-8850-546370422D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA930829-1778-4DD3-8850-546370422D69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B9B1982-E234-4A27-9980-A9591D47A79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B9B1982-E234-4A27-9980-A9591D47A79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B9B1982-E234-4A27-9980-A9591D47A79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B9B1982-E234-4A27-9980-A9591D47A79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BA32B5-0B6C-4C57-AF8C-84153B4EA2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BA32B5-0B6C-4C57-AF8C-84153B4EA2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BA32B5-0B6C-4C57-AF8C-84153B4EA2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BA32B5-0B6C-4C57-AF8C-84153B4EA2F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
