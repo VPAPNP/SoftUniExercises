@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\7. Beer Kegs\7. Beer Kegs.csproj" />
+    <ProjectReference Include="..\7. Beer Kegs\T07_Beer Kegs.csproj" />
   </ItemGroup>
 
 </Project>

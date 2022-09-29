@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _7._Beer_Kegs
+namespace T07_Beer_Kegs
 {
     internal class Program
     {
