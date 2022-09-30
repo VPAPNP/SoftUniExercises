@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T1_Arrays", "T1_Arrays\T1_Arrays.csproj", "{9C5F9850-062D-4A70-A8B1-696E067C4720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T2_Print Numbers in Reverse Order", "T2_Print Numbers in Reverse Order\T2_Print Numbers in Reverse Order.csproj", "{9DD4C30B-E1C4-442B-A928-5BF623E3F8CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C5F9850-062D-4A70-A8B1-696E067C4720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5F9850-062D-4A70-A8B1-696E067C4720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5F9850-062D-4A70-A8B1-696E067C4720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5F9850-062D-4A70-A8B1-696E067C4720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD4C30B-E1C4-442B-A928-5BF623E3F8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD4C30B-E1C4-442B-A928-5BF623E3F8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD4C30B-E1C4-442B-A928-5BF623E3F8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD4C30B-E1C4-442B-A928-5BF623E3F8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97C1E562-DD81-40D7-B6AF-2B156AC3F253}
+	EndGlobalSection
+EndGlobal
