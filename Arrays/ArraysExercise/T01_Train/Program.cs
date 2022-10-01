@@ -6,7 +6,7 @@ namespace T01_Train
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+             
         }
     }
 }
