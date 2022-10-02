@@ -5,9 +5,9 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T01_Train", "T01_Train\T01_Train.csproj", "{FB0048A7-2B42-441C-84EA-0B4F326952C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T04_Array Rotation", "T04_Array Rotation\T04_Array Rotation.csproj", "{85CB4A0B-7E69-48D5-A5D8-C855FA98C6BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T04_Array Rotation", "T04_Array Rotation\T04_Array Rotation.csproj", "{85CB4A0B-7E69-48D5-A5D8-C855FA98C6BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_Common Elements", "T02_Common Elements\T02_Common Elements.csproj", "{42AEE144-8716-4262-A455-B8B1106DAC9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T02_Common Elements", "T02_Common Elements\T02_Common Elements.csproj", "{42AEE144-8716-4262-A455-B8B1106DAC9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
