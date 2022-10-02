@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace T02_Common_Elements
 {
@@ -6,7 +7,22 @@ namespace T02_Common_Elements
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] first = Console.ReadLine()
+                .Split(" ");
+               
+            string[] second = Console.ReadLine()
+                .Split(" ");
+            string[] newArr1 = " "
+                .Split(" ");
+
+
+            for (int i = 0; i < first.Length; i++)
+            {
+                string curr = first[i];
+            }
+
+            Console.WriteLine(String.Join(" ",first));
+            Console.WriteLine(String.Join("", newArr1));
         }
     }
 }
