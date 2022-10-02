@@ -6,7 +6,18 @@ namespace T02_Common_Elements
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] first = Console.ReadLine()
+                .Split(" ");
+            string[] second = Console.ReadLine()
+                .Split(" ");
+
+
+
+            Console.WriteLine(String.Join ( " ",first));
+            Console.WriteLine(String.Join(" ",second));
+
+
+
         }
     }
 }
