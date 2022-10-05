@@ -13,32 +13,33 @@ namespace T06_Equal_Sums
                 .ToArray();
             int sumLeft = 0;
             int sumRight = 0;
+            bool isTrue = false;
             foreach (int i in array)
             {
-                
-
-                for (int j = 0; j < array.Length; j++)
-                {
-                     sumRight =+i;
-                    Console.WriteLine(sumRight);
-                    Console.WriteLine("Right---------------------");
-                }
-                
-
-                for (int c = array.Length; c > i; c--)
-                {
-                    sumLeft = +i;
-                    Console.WriteLine(sumLeft);
-                    Console.WriteLine("Left+++++++++++++++++++++");
-                }
-
+                sumLeft += i;
+            }
+            for (int i = 0; i < array.Length; i++)
+            {
+                sumLeft -= array[i];
                 if (sumLeft == sumRight)
                 {
-                    Console.WriteLine();
+                    Console.WriteLine(i);
+                    isTrue = true;
                 }
+                sumRight += array[i];
+            }
+            if (isTrue == false)
+            {
+                Console.WriteLine("no");
+            }
+            
+            
+            
+            
+            
                
 
-            }
+            
             
             
                 
