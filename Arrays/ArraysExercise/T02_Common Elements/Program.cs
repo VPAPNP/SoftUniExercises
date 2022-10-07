@@ -9,30 +9,20 @@ namespace T02_Common_Elements
         {
             string[] first = Console.ReadLine()
                 .Split(" ");
+               
             string[] second = Console.ReadLine()
-                .Split(" "); 
-            foreach(string str in second)
+                .Split(" ");
+            string[] newArr1 = " "
+                .Split(" ");
+
+
+            for (int i = 0; i < first.Length; i++)
             {
-                if (first.Contains(str))
-                {
-                    Console.Write($"{str} ");
-                }
+                string curr = first[i];
             }
 
-
-
-
-              
-
-        
-
-
-
-
-
-    
-
-
+            Console.WriteLine(String.Join(" ",first));
+            Console.WriteLine(String.Join("", newArr1));
         }
     }
- }
+}
