@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T04_Password Validator", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T11_Array Manipulator", "T11_Array Manipulator\T11_Array Manipulator.csproj", "{6B833C7E-581F-400E-ACFF-AB719B7BEB56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T05_Add and Subtract", "T05_Add and Subtract\T05_Add and Subtract.csproj", "{521B0C20-DBD8-4776-B1B6-83E7525EF4A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06_Middle Characters", "T06_Middle Characters\T06_Middle Characters.csproj", "{20AB4E25-FD55-4954-8D22-E3CA0AA9E7CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{6B833C7E-581F-400E-ACFF-AB719B7BEB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B833C7E-581F-400E-ACFF-AB719B7BEB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B833C7E-581F-400E-ACFF-AB719B7BEB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521B0C20-DBD8-4776-B1B6-83E7525EF4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521B0C20-DBD8-4776-B1B6-83E7525EF4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521B0C20-DBD8-4776-B1B6-83E7525EF4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521B0C20-DBD8-4776-B1B6-83E7525EF4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AB4E25-FD55-4954-8D22-E3CA0AA9E7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AB4E25-FD55-4954-8D22-E3CA0AA9E7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AB4E25-FD55-4954-8D22-E3CA0AA9E7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AB4E25-FD55-4954-8D22-E3CA0AA9E7CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
