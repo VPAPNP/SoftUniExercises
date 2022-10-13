@@ -8,28 +8,28 @@ namespace T07_NxN_Matrix
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            int[][] result = PrintMatrix(n);
-            Console.WriteLine(result);
+            PrintMatrix(n);
+            
             
             
         }
-        static int[][] PrintMatrix(int input)
+        static void PrintMatrix(int input)
         {
-            int[][] matrix = new int[input][];
             
             for (int i = 0; i < input; i++)
             {
-                
-                
+                Console.WriteLine();
+
+
                 for (int j = 0; j < input; j++)
                 {
-                    matrix[i][j] = i;
+                    Console.Write(input + " ");
                     
                     
                 }
             }     
             
-            return matrix;
+            
         }
 
     }
