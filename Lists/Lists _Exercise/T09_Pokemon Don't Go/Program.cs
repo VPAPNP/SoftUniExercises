@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace T09_Pokemon_Don_t_Go
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
