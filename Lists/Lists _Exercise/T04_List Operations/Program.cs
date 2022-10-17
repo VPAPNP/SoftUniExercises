@@ -1,73 +1,83 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
+﻿    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Reflection;
 
-namespace T04_List_Operations
-{
-    internal class Program
+    namespace T04_List_Operations
     {
-        static void Main(string[] args)
+        internal class Program
         {
-            List<int> ints = Console.ReadLine()
-                .Split()
-                .Select(int.Parse)
-                .ToList();
-            string comands;
-            while ((comands = Console.ReadLine()) != "End")
+            static void Main(string[] args)
             {
-                string[] cmdArgs = comands.Split();
-                if (cmdArgs.Contains("Add"))
+                List<int> ints = Console.ReadLine()
+                    .Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                    .Select(int.Parse)
+                    .ToList();
+                string comands;
+                while ((comands = Console.ReadLine()) != "End")
                 {
-                    ints.Add(int.Parse(cmdArgs[1]));
-                }
-                else if (cmdArgs.Contains("Insert"))
-                {
-                    int index = int.Parse(cmdArgs[2]);
-                    if (index < 0 || index > ints.Count )
+                    string[] cmdArgs = comands.Split(' ',StringSplitOptions.RemoveEmptyEntries);
+                    if (cmdArgs.Contains("Add"))
                     {
-                        Console.WriteLine("Invalid index");
+                        ints.Add(int.Parse(cmdArgs[1]));
                     }
-                    else
+                    else if (cmdArgs.Contains("Insert"))
                     {
-                        ints.Insert(index, int.Parse(cmdArgs[1]));
+                        int index = int.Parse(cmdArgs[2]);
+                        if (index < 0 || index >= ints.Count )
+                        {
+                            Console.WriteLine("Invalid index");
+                            continue;
+                        }
+                        else
+                        {
+                            ints.Insert(index, int.Parse(cmdArgs[1]));
+                        }
                     }
-                }
-                else if (cmdArgs.Contains("Remove"))
-                {
-                    int index = int.Parse(cmdArgs[1]);
-                    if (index < 0 || index > ints.Count)
+                    else if (cmdArgs.Contains("Remove"))
                     {
-                        Console.WriteLine("Invalid index");
+                        int index = int.Parse(cmdArgs[1]);
+                        if (index < 0 || index >= ints.Count)
+                        {
+                            Console.WriteLine("Invalid index");
+                            continue;
+                        }
+                        else
+                        {
+                            ints.RemoveAt(index);
+                        }
                     }
-                    else
+                    else if (cmdArgs.Contains("left"))
                     {
-                        ints.RemoveAt(index);
+                        int count = int.Parse(cmdArgs[2]);
+                      if (count >0 )
+                      {
+                        for(int i = 0; i < count; i++)
+                        {
+                            int firstNum = ints[0];
+                            ints.RemoveAt(0);
+                            ints.Add(firstNum);
+                        }
+                      }
+                        
                     }
-                }
-                else if (cmdArgs.Contains("left"))
-                {
+                    else if (cmdArgs.Contains("right"))
+                    {
                     int count = int.Parse(cmdArgs[2]);
-
-                    for (int i = 0; i < count; i++)
+                    if (count > 0)
                     {
-                        int firstNum = ints[0];
-                        ints.RemoveAt(0);
-                        ints.Add(firstNum);
+                        int lastNum = ints[ints.Count - 1];
+                        for (int i = 0; i < count; i++)
+                        {
+                            ints.RemoveAt(ints.Count - 1);
+                            ints.Insert(0, lastNum);
+                        }
+                    }
+                        
+                        
                     }
                 }
-                else if (cmdArgs.Contains("right"))
-                {
-                    int count = int.Parse(cmdArgs[2]);
-                    int lastNum = ints[ints.Count - 1];
-                    for (int i = 0; i < count; i++)
-                    {
-                        ints.RemoveAt(ints.Count -1);
-                        ints.Insert(0, lastNum);
-                    }
-                }
+                Console.WriteLine(string.Join(" ", ints));
             }
-            Console.WriteLine(string.Join(" ", ints));
         }
     }
-}
