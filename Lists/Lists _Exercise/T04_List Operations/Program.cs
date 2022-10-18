@@ -1,6 +1,6 @@
 ﻿    using System;
     using System.Collections.Generic;
-    using System.Linq;
+using System.Linq;
     using System.Reflection;
 
     namespace T04_List_Operations
@@ -54,9 +54,11 @@
                       {
                         for(int i = 0; i < count; i++)
                         {
-                            int firstNum = ints[0];
-                            ints.RemoveAt(0);
-                            ints.Add(firstNum);
+
+
+                            ints.Add(ints[0]);
+                            ints.Remove(ints[0]);
+
                         }
                       }
                         
@@ -67,10 +69,12 @@
                     if (count > 0)
                     {
                         int lastNum = ints[ints.Count - 1];
-                        for (int i = 0; i < count; i++)
+                        for (int k = 0; k < count; k++)
                         {
-                            ints.RemoveAt(ints.Count - 1);
-                            ints.Insert(0, lastNum);
+                            ints.Insert(0, ints[ints.Count -1]);
+                            int last = ints[ints.Count - 1];
+                            ints.RemoveAt(ints.Count -1 );
+                            
                         }
                     }
                         
