@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_Shopping List", "T02_Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_Heart Delivery", "T03_Heart Delivery\T03_Heart Delivery.csproj", "{325D379C-0C4C-461F-B888-6754CB0DA852}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T04_SoftUni Reception", "T04_SoftUni Reception\T04_SoftUni Reception.csproj", "{2F76E258-F19A-4A62-8747-ADF3C3432375}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{325D379C-0C4C-461F-B888-6754CB0DA852}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{325D379C-0C4C-461F-B888-6754CB0DA852}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{325D379C-0C4C-461F-B888-6754CB0DA852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F76E258-F19A-4A62-8747-ADF3C3432375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F76E258-F19A-4A62-8747-ADF3C3432375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F76E258-F19A-4A62-8747-ADF3C3432375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F76E258-F19A-4A62-8747-ADF3C3432375}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
