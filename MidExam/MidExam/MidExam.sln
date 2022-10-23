@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T_01", "T_01\T_01.csproj", "{579A1348-E222-4D13-B321-13849154572A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_Friend List Maintenance", "T02_Friend List Maintenance\T02_Friend List Maintenance.csproj", "{D0D77685-6874-4B9B-AEC5-FA9FFF960FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_Phone Shop", "T03_Phone Shop\T03_Phone Shop.csproj", "{B814837D-06C7-4000-A339-885F74734472}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{579A1348-E222-4D13-B321-13849154572A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579A1348-E222-4D13-B321-13849154572A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579A1348-E222-4D13-B321-13849154572A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D77685-6874-4B9B-AEC5-FA9FFF960FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D77685-6874-4B9B-AEC5-FA9FFF960FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D77685-6874-4B9B-AEC5-FA9FFF960FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D77685-6874-4B9B-AEC5-FA9FFF960FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B814837D-06C7-4000-A339-885F74734472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B814837D-06C7-4000-A339-885F74734472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B814837D-06C7-4000-A339-885F74734472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B814837D-06C7-4000-A339-885F74734472}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
