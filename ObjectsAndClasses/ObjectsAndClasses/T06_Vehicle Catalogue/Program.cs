@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
+
 
 namespace T06_Vehicle_Catalogue
 {
@@ -21,7 +21,6 @@ namespace T06_Vehicle_Catalogue
                 Vehicle vehicle = new Vehicle(type, model, color, horsePower);
                 list.Add(vehicle);
             }
-
                     List<int> numCars = new List<int>();
                     List<int> numTrucks = new List<int> ();
                     double horsePowerCars = 0;
@@ -46,18 +45,17 @@ namespace T06_Vehicle_Catalogue
                     {
                         Console.WriteLine(string.Join(Environment.NewLine, vehicle));
                     }
-
-
                 }
-
-                
-
             }
-            double averageHorsePowCars = horsePowerCars / numCars.Count;
-            double avarageHorsePowTrucks = horsePowerTrucks / numTrucks.Count;
             if (numCars.Count > 0)
             {
-                Console.WriteLine($"Cars have average horsepower of: {averageHorsePowCars:f2}.");
+                double averageHorsePowCars = horsePowerCars / numCars.Count;
+                if (averageHorsePowCars > 0)
+                {
+                    Console.WriteLine($"Cars have average horsepower of: {averageHorsePowCars:f2}.");
+                }
+               
+
             }
             else
             {
@@ -65,7 +63,13 @@ namespace T06_Vehicle_Catalogue
             }
             if (numTrucks.Count > 0)
             {
-                Console.WriteLine($"Trucks have average horsepower of: {avarageHorsePowTrucks:f2}.");
+                
+                double avarageHorsePowTrucks = horsePowerTrucks / numTrucks.Count;
+                if(avarageHorsePowTrucks > 0)
+                {
+                    Console.WriteLine($"Trucks have average horsepower of: {avarageHorsePowTrucks:f2}.");
+                }
+                
             }
             else
             {
