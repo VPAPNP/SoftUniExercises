@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace T04_Word_Filter
 {
@@ -6,7 +7,8 @@ namespace T04_Word_Filter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] strings = Console.ReadLine().Split(' ').Where(x=> x.Length %2 == 0).ToArray();
+            Console.WriteLine(string.Join(Environment.NewLine,strings));
         }
     }
 }
