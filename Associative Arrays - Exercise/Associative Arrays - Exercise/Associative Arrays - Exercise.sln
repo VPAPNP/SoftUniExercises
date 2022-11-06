@@ -9,13 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T02_A Miner Task", "T02_A M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03_Orders", "T03_Orders\T03_Orders.csproj", "{009CF75C-A538-433E-9D26-34C67A820088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T04_SoftUni Parking", "T04_SoftUni Parking\T04_SoftUni Parking.csproj", "{C858BF63-12CC-49FD-8853-373DF0F18318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T04_SoftUni Parking", "T04_SoftUni Parking\T04_SoftUni Parking.csproj", "{C858BF63-12CC-49FD-8853-373DF0F18318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T05_Courses", "T05_Courses\T05_Courses.csproj", "{6E916072-B381-4A7D-90A4-7D1F24827B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T05_Courses", "T05_Courses\T05_Courses.csproj", "{6E916072-B381-4A7D-90A4-7D1F24827B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06_Student Academy", "T06_Student Academy\T06_Student Academy.csproj", "{1FA2B7C5-15AB-41D1-A267-A6F6C1D16047}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T06_Student Academy", "T06_Student Academy\T06_Student Academy.csproj", "{1FA2B7C5-15AB-41D1-A267-A6F6C1D16047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07_Company Users", "T07_Company Users\T07_Company Users.csproj", "{BAEE8988-15FA-48F7-80D6-D7DD1A740578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T07_Company Users", "T07_Company Users\T07_Company Users.csproj", "{BAEE8988-15FA-48F7-80D6-D7DD1A740578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01_Count Real Numbers", "T01_Count Real Numbers\T01_Count Real Numbers.csproj", "{8FF51EB1-1FF8-4042-89DA-EDE097E29C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_Odd Occurrences", "T02_Odd Occurrences\T02_Odd Occurrences.csproj", "{CB610482-1150-4A06-93ED-614CA23BA9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_Word Synonyms", "ConsoleApp1\T03_Word Synonyms.csproj", "{1B31442F-55DD-4539-8A3C-44CDE9D76E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T04_Word Filter", "T04_Word Filter\T04_Word Filter.csproj", "{C7C78514-11A3-47DF-90BA-2C48EF2B39F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{BAEE8988-15FA-48F7-80D6-D7DD1A740578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAEE8988-15FA-48F7-80D6-D7DD1A740578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAEE8988-15FA-48F7-80D6-D7DD1A740578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF51EB1-1FF8-4042-89DA-EDE097E29C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF51EB1-1FF8-4042-89DA-EDE097E29C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF51EB1-1FF8-4042-89DA-EDE097E29C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF51EB1-1FF8-4042-89DA-EDE097E29C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB610482-1150-4A06-93ED-614CA23BA9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB610482-1150-4A06-93ED-614CA23BA9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB610482-1150-4A06-93ED-614CA23BA9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB610482-1150-4A06-93ED-614CA23BA9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B31442F-55DD-4539-8A3C-44CDE9D76E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B31442F-55DD-4539-8A3C-44CDE9D76E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B31442F-55DD-4539-8A3C-44CDE9D76E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B31442F-55DD-4539-8A3C-44CDE9D76E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C78514-11A3-47DF-90BA-2C48EF2B39F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C78514-11A3-47DF-90BA-2C48EF2B39F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C78514-11A3-47DF-90BA-2C48EF2B39F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C78514-11A3-47DF-90BA-2C48EF2B39F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
