@@ -8,7 +8,7 @@ namespace T01_Furniture
     {
         static void Main(string[] args)
         {
-            string pattern = @"^>>(?<furniture>[A-Za-z]+)<<(?<price>\d+(\.\d+)?)!(?<quantity>\d+(\.\d+)?)$";
+            string pattern = @"^>>(?<furniture>[A-Za-z]+)<<(?<price>\d+(\.\d+)?)!(?<quantity>\d+)(\.\d+)?$";
             Regex regex = new Regex(pattern);
             List<string> furnitures = new List<string>();
             double totalSpendMoney = 0;
@@ -30,7 +30,7 @@ namespace T01_Furniture
             {
                 Console.WriteLine(furn);
             }
-            Console.WriteLine($"Total money spend: {totalSpendMoney}");
+            Console.WriteLine($"Total money spend: {totalSpendMoney:f2}");
         }
     }
 }
