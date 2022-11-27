@@ -72,7 +72,6 @@ namespace T03_Heroes_of_Code_and_Logic_VII
             {
                 hero.ManaPoints -= manaNeeded;
                 Console.WriteLine($"{heroName} has successfully cast {spellName} and now has {hero.ManaPoints} MP!");
-                
             }
             else
             {
@@ -97,29 +96,23 @@ namespace T03_Heroes_of_Code_and_Logic_VII
         private static void Heal(string[] commandArg, string heroName, Heroes hero)
         {
             int amount = int.Parse(commandArg[2]);
-            
-            
-                
                 if (amount + hero.HealthPoints > 100)
                 {
                     amount = 100 - hero.HealthPoints;
                 }
                 hero.HealthPoints += amount;
 
-                Console.WriteLine($"{heroName} healed for {amountRecov} HP!");
-            
+                Console.WriteLine($"{heroName} healed for {amount} HP!");
         }
         private static void Recharge(string[] commandArg, string heroName, Heroes hero)
         {
             int amount = int.Parse(commandArg[2]);
-               
                 if (amount + hero.ManaPoints > 200)
                 {
                     amount = 200 - hero.ManaPoints;
                 }
                 hero.ManaPoints += amount;
-                Console.WriteLine($"{heroName} recharged for {amountRecov} MP!");
-            
+                Console.WriteLine($"{heroName} recharged for {amount} MP!");
         }
     }
     public class Heroes
