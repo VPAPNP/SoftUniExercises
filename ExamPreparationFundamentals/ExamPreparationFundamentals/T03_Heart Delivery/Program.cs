@@ -44,12 +44,6 @@ namespace T03_Heart_Delivery
 
                     }
                 }
-                
-                    
-                
-                
-
-               
             }
             Console.WriteLine($"Cupid's last position was {lastPosition}.");
             if (neighborhood.All(x => x == 0))
