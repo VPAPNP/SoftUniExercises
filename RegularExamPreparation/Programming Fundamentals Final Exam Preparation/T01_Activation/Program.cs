@@ -49,10 +49,7 @@ namespace T01_Activation
                     int endIndex = int.Parse(commandArg[2]);
                     sb.Remove(startIndex, endIndex - startIndex);
                     Console.WriteLine(sb);
-
-
                 }
-
             }
             Console.WriteLine($"Your activation key is: {sb}");
         }
