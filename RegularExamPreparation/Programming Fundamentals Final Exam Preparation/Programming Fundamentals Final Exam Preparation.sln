@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_EmojiDetect", "T02_Emoj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_The Pianist", "T03_The Pianist\T03_The Pianist.csproj", "{511B3CE5-CC54-4155-B352-F75FB7D2A628}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_Ad Astra", "T02_Ad Astra\T02_Ad Astra.csproj", "{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{511B3CE5-CC54-4155-B352-F75FB7D2A628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{511B3CE5-CC54-4155-B352-F75FB7D2A628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{511B3CE5-CC54-4155-B352-F75FB7D2A628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

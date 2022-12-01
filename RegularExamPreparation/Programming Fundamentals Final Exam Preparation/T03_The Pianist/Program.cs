@@ -53,10 +53,8 @@ namespace T03_The_Pianist
                     {
                         if (item.PieceName == pieceName)
                         {
-                            
                             Console.WriteLine($"Successfully removed {pieceName}!");
                             contains = true;
-                            
                             break;
                         }
                     }
@@ -74,11 +72,20 @@ namespace T03_The_Pianist
                 }
                 else if (action == "ChangeKey")
                 {
-                    string newKey = commandArg[2];
-                    int indexOfPiece = listPieces.IndexOf(listPieces.Single(i => i.PieceName == pieceName));
-                    Pieces piece = listPieces[indexOfPiece];
-                        if (listPieces.Exists(x=> x.PieceName == pieceName))
+                    bool contains = false;
+                    foreach (var item in listPieces)
+                    {
+                        if (item.PieceName == pieceName)
                         {
+                            contains = true;
+                            break;  
+                        }
+                    }
+                        if (contains == true)
+                        {
+                            string newKey = commandArg[2];
+                            int indexOfPiece = listPieces.IndexOf(listPieces.Single(i => i.PieceName == pieceName));
+                            Pieces piece = listPieces[indexOfPiece];
                             piece.Key = newKey;
                             Console.WriteLine($"Changed the key of {pieceName} to {newKey}!");
                         }
