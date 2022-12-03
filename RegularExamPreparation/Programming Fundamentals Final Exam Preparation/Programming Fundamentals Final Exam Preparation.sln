@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_The Pianist", "T03_The 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_Ad Astra", "T02_Ad Astra\T02_Ad Astra.csproj", "{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01_The Imitati", "T01_The Imitati\T01_The Imitati.csproj", "{94D3444C-FC7F-4F14-A420-2965CEF6053F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_P!rates", "T03_P!rates\T03_P!rates.csproj", "{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D3444C-FC7F-4F14-A420-2965CEF6053F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D3444C-FC7F-4F14-A420-2965CEF6053F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D3444C-FC7F-4F14-A420-2965CEF6053F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D3444C-FC7F-4F14-A420-2965CEF6053F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
