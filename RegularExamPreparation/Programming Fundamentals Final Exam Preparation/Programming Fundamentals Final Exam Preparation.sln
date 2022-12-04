@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_Heroes of Code and Logic VII", "T03_Heroes of Code and Logic VII\T03_Heroes of Code and Logic VII.csproj", "{37D8B0B1-23CD-4EF0-A144-C12FB7A3F929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03_Heroes of Code and Logic VII", "T03_Heroes of Code and Logic VII\T03_Heroes of Code and Logic VII.csproj", "{37D8B0B1-23CD-4EF0-A144-C12FB7A3F929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01_Activation", "T01_Activation\T01_Activation.csproj", "{2C4E59BB-9DC1-40F6-8ABB-4A1033F7F3CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T01_Activation", "T01_Activation\T01_Activation.csproj", "{2C4E59BB-9DC1-40F6-8ABB-4A1033F7F3CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_EmojiDetect", "T02_EmojiDetect\T02_EmojiDetect.csproj", "{23BC8A86-C7D8-4573-BEEA-225E9786ACCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T02_EmojiDetect", "T02_EmojiDetect\T02_EmojiDetect.csproj", "{23BC8A86-C7D8-4573-BEEA-225E9786ACCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_The Pianist", "T03_The Pianist\T03_The Pianist.csproj", "{511B3CE5-CC54-4155-B352-F75FB7D2A628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03_The Pianist", "T03_The Pianist\T03_The Pianist.csproj", "{511B3CE5-CC54-4155-B352-F75FB7D2A628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_Ad Astra", "T02_Ad Astra\T02_Ad Astra.csproj", "{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T02_Ad Astra", "T02_Ad Astra\T02_Ad Astra.csproj", "{D27E828F-34CB-46B2-ADDF-AC741DCE3C3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01_The Imitati", "T01_The Imitati\T01_The Imitati.csproj", "{94D3444C-FC7F-4F14-A420-2965CEF6053F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T01_The Imitati", "T01_The Imitati\T01_The Imitati.csproj", "{94D3444C-FC7F-4F14-A420-2965CEF6053F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_P!rates", "T03_P!rates\T03_P!rates.csproj", "{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03_P!rates", "T03_P!rates\T03_P!rates.csproj", "{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01_PasswoReset", "T01_PasswoReset\T01_PasswoReset.csproj", "{85506AB7-161A-4D78-A683-66091C0BDE44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCB29E8-68F7-4BA8-9F1C-1A3A677B5883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85506AB7-161A-4D78-A683-66091C0BDE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85506AB7-161A-4D78-A683-66091C0BDE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85506AB7-161A-4D78-A683-66091C0BDE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85506AB7-161A-4D78-A683-66091C0BDE44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
