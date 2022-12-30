@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
+
+
 
 namespace T_03
 {
@@ -24,14 +24,9 @@ namespace T_03
                     if (!users.Exists(x=> x.UserName == userName))
                     {
                         User user = new User(userName, sent, received, capacity);
-                        if (sent >= 0)
-                        {
                             user.Capacity -= sent;
-                        }
-                        if (received >= 0)
-                        {
                             user.Capacity -= received;
-                        }
+                        
                         if (user.Sent + user.Received >= capacity)
                         {
                             continue;
@@ -55,7 +50,7 @@ namespace T_03
                         {
                             senderExist = true;
                         }
-                        else if (user.UserName == receiver)
+                        if (user.UserName == receiver)
                         {
                             receiverExist = true;
                         }
@@ -74,7 +69,7 @@ namespace T_03
                                     users.Remove(users[i]);
                                 }
                             }
-                            else if (users[i].UserName == receiver)
+                            if (users[i].UserName == receiver)
                             {
                                 users[i].Received += 1;
                                 users[i].Capacity -= 1;
@@ -107,13 +102,18 @@ namespace T_03
                    
                 }
             }
-            Console.WriteLine($"Users count: {users.Count}");
+            
             if (users.Count > 0)
             {
+                Console.WriteLine($"Users count: {users.Count}");
                 foreach (User user in users)
                 {
                     Console.WriteLine($"{user.UserName} - {user.Sent + user.Received}");
                 }
+            }
+            else
+            {
+                Console.WriteLine($"Users count: 0");
             }
         }
     }
