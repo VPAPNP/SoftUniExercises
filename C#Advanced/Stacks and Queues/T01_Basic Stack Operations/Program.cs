@@ -10,7 +10,6 @@ namespace T01_Basic_Stack_Operations
         {
             int[] inputCommands = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             int[] input = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
-            
             int elementToLookFor = inputCommands[2];
             int elementsToReacive = inputCommands[0];
             int elementsToPop = inputCommands[1];
@@ -34,8 +33,6 @@ namespace T01_Basic_Stack_Operations
             {
                   Console.WriteLine(stack.Min());
             }
-
-
         }
     }
 }
