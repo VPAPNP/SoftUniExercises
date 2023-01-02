@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01_Basic Stack Operations"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02_Basic Queue Operations", "T02_Basic Queue Operations\T02_Basic Queue Operations.csproj", "{C9EBD04A-E273-49BE-971E-154128B612B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03_Maximum and Minimum Element", "T03_Maximum and Minimum Element\T03_Maximum and Minimum Element.csproj", "{E871C6C2-1BAC-4AA9-BC09-AD505013A40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T04_Fast Food", "T04_Fast Food\T04_Fast Food.csproj", "{BDC9FC4B-4E9A-4661-9DB8-475E43212D5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C9EBD04A-E273-49BE-971E-154128B612B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9EBD04A-E273-49BE-971E-154128B612B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9EBD04A-E273-49BE-971E-154128B612B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E871C6C2-1BAC-4AA9-BC09-AD505013A40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E871C6C2-1BAC-4AA9-BC09-AD505013A40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E871C6C2-1BAC-4AA9-BC09-AD505013A40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E871C6C2-1BAC-4AA9-BC09-AD505013A40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC9FC4B-4E9A-4661-9DB8-475E43212D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC9FC4B-4E9A-4661-9DB8-475E43212D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC9FC4B-4E9A-4661-9DB8-475E43212D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC9FC4B-4E9A-4661-9DB8-475E43212D5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
