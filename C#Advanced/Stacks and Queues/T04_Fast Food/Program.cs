@@ -17,20 +17,17 @@ namespace T04_Fast_Food
             {
                 queue.Enqueue(ordersCount[i]);
                 int cuurent = queue.Peek();
+                if (cuurent > biggest)
+                {
+                    biggest = cuurent;
+                }
                 if (orderTotalQuantity >= cuurent)
                 {
                     queue.Dequeue();
                     orderTotalQuantity -= cuurent;
-                    if (cuurent > biggest)
-                    {
-                        biggest = cuurent;
-                    }
+                    
                 }
             }
-           
-            
-                
-                
             
             Console.WriteLine(biggest);
             if (queue.Count == 0)
