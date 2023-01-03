@@ -29,6 +29,10 @@ namespace T06_Songs_Queue
                     {
                         queue.Enqueue(currSong);
                     }
+                    else
+                    {
+                        Console.WriteLine($"{currSong} is already contained!");
+                    }
                 }
                 else if (command == "Show")
                 {
