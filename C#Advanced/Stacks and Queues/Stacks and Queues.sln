@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06_Songs Queue", "T06_Song
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07_Truck Tour", "T07_Truck Tour\T07_Truck Tour.csproj", "{1CA9799A-CA6F-4BE2-9ABA-71AA748A7CDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T08_Balanced Parenthesis", "T08_Balanced Parenthesis\T08_Balanced Parenthesis.csproj", "{1E0A3C02-F7F9-4320-A5E0-C91104088C7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1CA9799A-CA6F-4BE2-9ABA-71AA748A7CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CA9799A-CA6F-4BE2-9ABA-71AA748A7CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CA9799A-CA6F-4BE2-9ABA-71AA748A7CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0A3C02-F7F9-4320-A5E0-C91104088C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0A3C02-F7F9-4320-A5E0-C91104088C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0A3C02-F7F9-4320-A5E0-C91104088C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0A3C02-F7F9-4320-A5E0-C91104088C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
