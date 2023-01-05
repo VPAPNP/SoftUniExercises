@@ -9,28 +9,43 @@ namespace T08_Balanced_Parenthesis
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
-            char[] chars = input.ToCharArray();
-            Queue<char> left= new Queue<char>();
-            Stack<char> right= new Stack<char>();
-            for (int i = 0; i < chars.Length/2; i++)
+            Stack<char> charsInput= new Stack<char>();
+            
+            foreach (var item in input)
             {
-                left.Enqueue(chars[i]);
-            }
-            for (int i = chars.Length/2; i < chars.Length; i++)
-            {
-                right.Push(chars[i]);
-            }
-            for (int i = 0; i < right.Count; i++)
-            {
-                char leftChar = left.Dequeue();
-                char rightChar = right.Pop();
-                if (leftChar != rightChar)
+                if (charsInput.Any())
                 {
-                    Console.WriteLine("NO");
-                    break;
+                    char curr = charsInput.Peek();
+                    if (curr == '{' && item == '}')
+                    {
+                        charsInput.Pop();
+                        continue;
+                    }
+                    else if (curr == '[' && item == ']')
+                    {
+                        charsInput.Pop();
+                        continue;
+                    }
+                    else if (curr == '(' && item == ')')
+                    {
+                        charsInput.Pop();
+                        continue;
+                    }
+                    
+
                 }
+                charsInput.Push(item);
             }
-            Console.WriteLine("YES");
+                
+            if (charsInput.Any())
+            {
+                Console.WriteLine("NO");
+            }
+            else
+            {
+                Console.WriteLine("YES");
+            }
+            
         }
     }
 }
