@@ -19,9 +19,10 @@ namespace T09_Simple_Text_Editor
                 int command = int.Parse(input[0]);
                 if (command == 1)
                 {
-                        string toApend = input[1];
-                        strings.Push(toApend);
-                        text.Append(toApend);
+                    string toApend = input[1];
+                    text.Append(toApend);
+                    strings.Push(text.ToString());
+                   
                 }
                 else if (command == 2) 
                 {
@@ -40,7 +41,7 @@ namespace T09_Simple_Text_Editor
                     {
                         strings.Pop();
                         text = new StringBuilder();
-                        text.Append(strings.Peek());
+                        text.Append(strings.Peek()); 
                     }
                     
                 }
