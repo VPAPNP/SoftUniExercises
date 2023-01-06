@@ -17,6 +17,15 @@ namespace _1._Diagonal_Difference
                     matrix[row,col] = numbers[col];
                 }
             }
+            int leftRightSum = 0;
+            int rightLeftSum = 0;
+            for (int i = 0,j = size-1; i < size; i++,j--)
+            {
+                
+                leftRightSum += matrix[i, i];
+                rightLeftSum += matrix[j, i];
+            }
+            Console.WriteLine(Math.Abs(leftRightSum - rightLeftSum));
         }
     }
 }
