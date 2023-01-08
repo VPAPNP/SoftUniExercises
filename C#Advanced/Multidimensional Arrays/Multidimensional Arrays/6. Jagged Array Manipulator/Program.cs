@@ -46,7 +46,7 @@ namespace _6._Jagged_Array_Manipulator
                     int row = int.Parse(commandArg[1]);
                     int col = int.Parse(commandArg[2]);
                     int value = int.Parse(commandArg[3]);
-                    if (row >= 0 && row <= jaggedArray.Length -1 && col >= 0 && col <= jaggedArray.Length - 1 )
+                    if (row >= 0 && row < jaggedArray.Length  && col >= 0 && col < jaggedArray[row].Length)
                     {
                         jaggedArray[row][col] += value;
                     }
@@ -57,7 +57,7 @@ namespace _6._Jagged_Array_Manipulator
                     int row = int.Parse(commandArg[1]);
                     int col = int.Parse(commandArg[2]);
                     int value = int.Parse(commandArg[3]);
-                    if (row >= 0 && row <= jaggedArray.Length - 1 && col >= 0 && col <= jaggedArray.Length - 1)
+                    if (row >= 0 && row < jaggedArray.Length && col >= 0 && col <jaggedArray[row].Length)
                     {
                         jaggedArray[row][col] -= value;
                     }
